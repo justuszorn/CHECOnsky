@@ -1,0 +1,10 @@
+# CtapipeNeighbourPeakIntegrator
+#  Utilises ctapipe's NeighbourPeakIntegrator to define an integration window
+#  for each pixel, based on the maximum of the average waveform across the
+#  neighbouring pixels.
+t_nn: True
+#    Time corresponding to the maximum peak in the average waveform across
+#    the neighbouring pixels, at which the charge is extracted.
+charge_nn: True
+#    Charge extracted from the integration window defined from the
+#    neighbours.
