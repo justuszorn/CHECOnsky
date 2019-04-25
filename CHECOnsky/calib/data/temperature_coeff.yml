@@ -1,0 +1,7 @@
+## Fit: y = c[0] + c[1]x + c[2]x^2
+temperature_coeff:
+- 1.32921
+- -0.12208
+- 0.00634
+temperature_max: 100.0
+temperature_min: 10.0
